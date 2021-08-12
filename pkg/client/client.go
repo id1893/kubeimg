@@ -2,9 +2,9 @@ package client
 
 import (
 	"flag"
-	"github.com/id1893/kubeimg/pkg/homedir"
-	"k8s.io/client-go/1.5/kubernetes"
-	"k8s.io/client-go/1.5/tools/clientcmd"
+	"k8s.io/client-go/kubernetes"
+	"k8s.io/client-go/tools/clientcmd"
+	"k8s.io/client-go/util/homedir"
 	"path/filepath"
 )
 
