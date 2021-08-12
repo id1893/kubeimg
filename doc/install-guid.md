@@ -1,7 +1,7 @@
 # kubeimg
 ## 安装
 ```shell
-curl https://github.com/hejianlai/kubeimg/releases/download/v1.0/kubeimg
+curl https://github.com/id1893/kubeimg/releases/download/v1.0/kubeimg
 mv kubeimg /usr/local/bin/
 chmod +x /usr/local/bin/kubeimg
 ```
@@ -28,7 +28,7 @@ kubectl img image
 ```shell
 mkdir kubeimg
 cd kubeimg
-cobra init --pkg-name github.com/hejianlai/kubeimg
-go mod init github.com/hejianlai/kubeimg
+cobra init --pkg-name github.com/id1893/kubeimg
+go mod init github.com/id1893/kubeimg
 cobra add image
 ```
